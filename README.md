@@ -9,7 +9,7 @@ endpoint example : http://localhost:8085/connected?origin=Boston&destination=New
 
 The above url responds with yes/no. The "yes" reaction affirms the route between the urban communities and "no" affirms no network. The inclusion can be extended by altering the "input.txt" under assets by including the connectivity between more urban areas. 
 
-The program peruses the input.txt record and parses it to build up the route database. For each GET demand, the projects removes the solicitation boundaries "beginning" and "goal" utilizing "RequestParam" explanation and does the query on the route database and reacts back "yes" if the route exists between them in any case reacts with "no". 
+The program peruses the input.txt record and parses it to build up the route database. For each GET demand, the projects removes the solicitation boundaries "origin" and "destination" utilizing "RequestParam" explanation and does the query on the route database and reacts back "yes" if the route exists between them in any case reacts with "no". 
 
 A couple of unit tests additionally exists utilizing mockmvc for positive tests and negative tests 
 
